@@ -38,6 +38,7 @@ h5 {
 	margin: 0 5px;
 }
 
+/* Linkedin Icon */
 a.icoLinkedin ::before {
   color:#44BCDD;
 }
@@ -56,6 +57,27 @@ a.icoLinkedin ::after {
 }
 a.socialIcon:hover, .socialHoverClass {
 	color:#44BCDD;
+}
+
+/* Github Icon */
+a.icoGithub ::before {
+  color:rgb(134, 68, 221);
+}
+
+a.icoGithub ::after {
+  color:rgb(223, 229, 231);
+}
+
+
+
+.social-network a.icoGithub:hover {
+	background-color:#6b6060c0;
+}
+.social-network a.icoGithub:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#444444;
 }
 
 .social-circle a {
